@@ -3,6 +3,7 @@ Usual steps for deploying existing Salesforce project to new sandbox
 If you need to deploy existing Salesforce project to new sandbox, you probably can face with some issues, because different parts of SF project are dependent on each other. So, I provide here simple flow for deployment. Actualy, my list can contains not all types of Salesforce project entities, because this platform is growing and some new features are coming.
 
 So, for avoiding dependency errors, I suggest to deploy project entities in such order:
+
 1. static resources
 2. labels
 3. groups
