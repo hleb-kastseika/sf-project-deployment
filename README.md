@@ -22,7 +22,10 @@ To avoid the possible dependency errors, deploy the project components in the fo
 16. workflows
 17. reports
 18. dashbords
-19. homepage layouts 
+19. homepage layouts
 20. homepage components
 21. profiles
 22. permission sets
+
+### Salesforce Continuous Integration 
+The *sf-ci* folder contains Ant build file for an automated Subversion code check-outing and deployment to SF Org. See more details in *sf-ci/README.txt*
