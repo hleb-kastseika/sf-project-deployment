@@ -1,0 +1,32 @@
+<project name="CI: Svn to Org" default="deploy" basedir="." xmlns:sf="antlib:com.salesforce">  
+    <property file="build.properties" />
+    <property environment="env" />
+     
+    <!-- path to the svnant libraries. Usually they will be located in ANT_HOME/lib -->
+    <path id="svnant.classpath">
+        <fileset dir="${ant.home}\lib">
+            <include name="**/svn*.jar"/>
+        </fileset>
+    </path>  
+       
+    <!-- load the svn task -->
+    <typedef resource="org/tigris/subversion/svnant/svnantlib.xml" classpathref="svnant.classpath" />
+     
+    <target name="checkoutLatest">
+        <svn username="${svnant.repository.user}" password="${svnant.repository.passwd}">
+            <checkout url="${svnant.latest.url}"
+                revision="HEAD"
+                destPath="${metadata.root}" />
+        </svn>
+    </target>
+         
+    <target name="deploy" depends="checkoutLatest">
+        <echo message="deploying from ${metadata.root}" /> 
+        <sf:deploy username="${sf.org.username}"
+            password="${sf.org.password}"
+            serverurl="${sf.org.serverurl}"
+            deployroot="${metadata.root}"
+            singlePackage="true"
+            runAllTests="${sf.org.forcetests}" />
+    </target>
+</project>
