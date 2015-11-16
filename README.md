@@ -30,6 +30,9 @@ To avoid the possible dependency errors, deploy the project components in the fo
 ### Salesforce Continuous Integration 
 The *sf-ci* folder contains Ant build file for an automated Subversion code check-outing and deployment to SF Org. See more details in *sf-ci/README.txt*
 
+
+---
+
 **Copyright © 2015 Last Khajiit <last.khajiit@gmail.com>**
 
 This work is free. You can redistribute it and/or modify it under the
