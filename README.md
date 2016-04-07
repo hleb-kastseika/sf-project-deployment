@@ -1,5 +1,4 @@
-How to deploy an existing Salesforce project to a new sandbox
-=========
+###How to deploy an existing Salesforce project to a new sandbox
 Since separate parts of the SF project depend on each other, deploying it to a new sandbox could be trick. However, there is a straightforward deployment flow you can follow to prevent any potential issues. Salesforce is a growing platform (hence new features are coming), so this list might be incomplete.
 
 To avoid the possible dependency errors, deploy the project components in the following order:
