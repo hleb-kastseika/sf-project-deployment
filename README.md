@@ -27,7 +27,7 @@ To avoid the possible dependency errors, deploy the project components in the fo
 22. permission sets
 
 ### Salesforce Continuous Integration 
-The *sf-ci* folder contains different aproaches for organization of continious integration process on your Salesforce project.
+The [sf-ci](https://github.com/last-khajiit/sf-project-deployment/tree/master/sf-ci) folder contains different aproaches for organization of continious integration process on your Salesforce project.
 
 
 ---
