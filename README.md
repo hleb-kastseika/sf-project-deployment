@@ -15,8 +15,8 @@ To avoid the possible dependency errors, deploy the project components in the fo
 9. apps
 10. emails
 11. classes
-12. pages
-13. components
+12. components
+13. pages
 14. layouts
 15. triggers
 16. workflows
