@@ -12,19 +12,28 @@ To avoid the possible dependency errors, deploy the project components in the fo
 7. OBJECTS
 8. tabs
 9. apps
-10. emails
-11. classes
-12. components
-13. pages
-14. layouts
-15. triggers
-16. workflows
-17. reports
-18. dashbords
-19. homepage layouts
-20. homepage components
-21. profiles
-22. permission sets
+10. roles
+11. queues
+12. groups
+13. remote site settings
+14. emails
+15. classes
+16. components
+17. pages
+18. weblinks
+19. layouts
+20. triggers
+21. workflows
+22. approval processes 
+23. assignment rules
+24. report types
+25. reports
+26. dashbords
+27. homepage layouts
+28. homepage components
+29. flows
+30. profiles
+31. permission sets
 
 ### Salesforce Continuous Integration 
 The [sf-ci](https://github.com/last-khajiit/sf-project-deployment/tree/master/sf-ci) folder contains different aproaches for organization of continious integration process on your Salesforce project.
