@@ -2,6 +2,7 @@ This Ant script check-out the head revision from Subversion to a local folder an
 It can be used in a continuous integration scenario. Hence this script would be automated by a Hudson or Jenkins job that would be monitoring the Subversion repository for commit operations.
 
 Prerequisites:
-- Force.com Migration Tool
+- Java
+- [Force.com Migration Tool](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/meta_development.htm), in particular *salesforce.jar*
 - Apache Ant 
 - SvnAnt task
