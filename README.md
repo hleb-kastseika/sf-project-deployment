@@ -42,7 +42,7 @@ The [sf-ci](https://github.com/last-khajiit/sf-project-deployment/tree/master/sf
 
 ---
 
-**Copyright © 2016 Last Khajiit <last.khajiit@gmail.com>**
+**Copyright © 2017 Last Khajiit <last.khajiit@gmail.com>**
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
