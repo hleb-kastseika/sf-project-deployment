@@ -1,6 +1,6 @@
 How to deploy an existing Salesforce project to a new sandbox
 
-[![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](https://raw.githubusercontent.com/gleb-kosteiko/sf-project-deployment/master/copying.txt)
+[![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](https://raw.githubusercontent.com/hleb-kastseika/sf-project-deployment/master/copying.txt)
 
 Since separate parts of the SF project depend on each other, deploying it to a new sandbox could be trick. However, there is a straightforward deployment flow you can follow to prevent any potential issues. Salesforce is a growing platform (hence new features are coming), so this list might be incomplete.
 
@@ -40,13 +40,13 @@ To avoid the possible dependency errors, deploy the project components in the fo
 32. permission sets
 
 ### Salesforce Continuous Integration 
-The [sf-ci](https://github.com/gleb-kosteiko/sf-project-deployment/tree/master/sf-ci) folder contains different aproaches for organization of continious integration process on your Salesforce project.
+The [sf-ci](https://github.com/hleb-kastseika/sf-project-deployment/tree/master/sf-ci) folder contains different aproaches for organization of continious integration process on your Salesforce project.
 
 
 ---
 
-**Copyright © Gleb Kosteiko**
+**Copyright © Hleb Kastseika**
 
 This work is free. You can redistribute it and/or modify it under the
 terms of the Do What The Fuck You Want To Public License, Version 2,
-as published by Sam Hocevar. See the [COPYING](https://raw.githubusercontent.com/gleb-kosteiko/sf-project-deployment/master/copying.txt) file for more details.
+as published by Sam Hocevar. See the [COPYING](https://raw.githubusercontent.com/hleb-kastseika/sf-project-deployment/master/copying.txt) file for more details.
